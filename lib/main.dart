@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Home',
       theme: ThemeData(),
       home: const MainPage(),
     );
@@ -25,10 +25,10 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Page'),
+        title: const Text('Main Page'),
       ),
       body: const Center(
-        child: Text('Home Page'),
+        child: Text('Main Page'),
       ),
     );
   }
